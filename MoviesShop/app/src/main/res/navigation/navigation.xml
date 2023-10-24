@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.moviesshop.ui.MoviesFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/moviesToCard"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.moviesshop.ui.InputFragment"
+        android:label="InputFragment" >
+        <action
+            android:id="@+id/inputToMovies"
+            app:destination="@id/moviesFragment" />
+        <action
+            android:id="@+id/inputToMember"
+            app:destination="@id/memberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memberFragment"
+        android:name="com.example.moviesshop.ui.MemberFragment"
+        android:label="MemberFragment" >
+        <action
+            android:id="@+id/memberToMovies"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.moviesshop.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/splashToInput"
+            app:destination="@id/inputFragment" />
+        <action
+            android:id="@+id/splashToMember"
+            app:destination="@id/memberFragment" />
+        <action
+            android:id="@+id/splashToMovie"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.moviesshop.ui.CardFragment"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card" >
+        <action
+            android:id="@+id/cardToPayment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.adilegungor.gungorecommerce.ui.odeme.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/paymentToResult"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.adilegungor.gungorecommerce.ui.odeme.ResultFragment"
+        android:label="ResultFragment" >
+        <action
+            android:id="@+id/resultToMovie"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+</navigation>

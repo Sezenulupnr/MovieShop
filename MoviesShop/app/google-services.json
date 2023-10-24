@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "267798865058",
+    "project_id": "moviesshop-43905",
+    "storage_bucket": "moviesshop-43905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267798865058:android:9ed03478e9fa093105a3fb",
+        "android_client_info": {
+          "package_name": "com.example.moviesshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_XX-vTZzTIPr8ou3eNakfK1DdX9YHLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
