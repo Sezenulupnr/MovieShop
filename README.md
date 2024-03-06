@@ -1,5 +1,9 @@
 # MovieShop
 Movie sales application with Kotlin
+
+📸 Screenshots
+
+
 ![Ekran Görüntüsü (30)](https://github.com/Sezenulupnr/MovieShop/assets/104523675/fc0e0743-bd5b-4337-9b41-849de5e76d6a)
 ![Ekran Görüntüsü (29)](https://github.com/Sezenulupnr/MovieShop/assets/104523675/eecd86f3-3f8a-4cf1-93fd-c3bf49ff8d40)
 ![Ekran Görüntüsü (33)](https://github.com/Sezenulupnr/MovieShop/assets/104523675/8bba64f3-d6f9-4b53-a1eb-486953f117cd)
